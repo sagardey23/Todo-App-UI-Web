@@ -1,28 +1,26 @@
 .main{
-    width: 50%;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
     margin-left: 600px;
 }
-.head{
-    font-size: 45px;
-    display:  inline-block;
-    font-weight: 800;
-    
-}
 .gb{
     margin-bottom: 50px;
     margin-left: 60px;
-    /* display: inline-block; */
-    /* position: relative; */
+    display: inline-block;
+    position: relative;
+}
+.head{
+    font-size: 45px;
+    /* display:  inline-block; */
+    font-weight: 800;
+    opacity: 70%;
+    
 }
 .text{
     font-size: 20px;
     display: inline-block;
 }
-/* .bl{
-    display: inline-block;
-} */
 .parent{
     height: 500px;
     width: 350px;
@@ -60,11 +58,7 @@ a{
     opacity: 50%;
     color: black;
 }
-.head{
-    justify-content: center;
-    opacity: 70%;
-}
 .bottom{
-    padding-left: 200px;
-    padding-top: 80px;
+    padding-left: 190px;
+    padding-top: 75px;
 }

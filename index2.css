@@ -12,10 +12,13 @@
 }
 .head{
     font-size: 45px;
-    /* display:  inline-block; */
+    display:  flex;
     font-weight: 800;
     opacity: 70%;
     
+}
+.hr{
+    width: 100px;
 }
 .text{
     font-size: 20px;

@@ -47,3 +47,7 @@ body{
 .hr{
     width: 100px;
 }
+.left{
+    position: absolute;
+    left: 1px;
+}

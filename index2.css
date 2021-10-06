@@ -1,14 +1,12 @@
 .main{
-    width: 100%;
+    width: 50%;
     margin: auto;
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 500px;
 }
 .gb{
     margin-bottom: 50px;
     margin-left: 60px;
-    display: inline-block;
-    position: relative;
 }
 .head{
     font-size: 45px;
@@ -27,6 +25,7 @@
 .parent{
     height: 500px;
     width: 350px;
+    position: relative;
 }
 .card{
     border: 1px solid rgb(226, 67, 67);
@@ -64,4 +63,8 @@ a{
 .bottom{
     padding-left: 190px;
     padding-top: 75px;
+}
+.left{
+    position: absolute;
+    left: 1px;
 }

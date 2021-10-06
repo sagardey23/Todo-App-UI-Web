@@ -17,6 +17,7 @@
     margin-right: 230px;
     font-size: 45px;
     color: rgb(70, 66, 66);
+    opacity: 50%;
 }
 .list{
     text-align: right;
@@ -30,6 +31,15 @@
     height: 500px;
     width: 100%;
     display: flex;
+}
+.parent1{
+    position: relative;
+}
+.parent2{
+    position: relative;
+}
+.parent3{
+    position: relative;
 }
 .card{
     border: 1px solid rgb(226, 67, 67);
@@ -56,6 +66,10 @@
     font: 17px sans-serif;
     padding-right: 15px;
     margin-top: 35px;
+}
+.left{
+    position: absolute;
+    left: 1px;
 }
 .blur{
     filter: blur(10px);
